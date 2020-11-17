@@ -1,0 +1,51 @@
+.block_sidebar {
+    min-height: 800px;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 7px 25px 5px rgba(0,0,0,0.4);
+}
+
+.block_Setting {
+
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: inherit;
+    align-items: center;
+    justify-content: center;
+}
+.buttonSlide button{
+    margin-left: -35px;
+    width: 45px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #282c34;
+    color: white;
+}
+.buttonSlide button:focus{
+    outline:none;
+}
+.buttonSlide {
+    height: 35px;
+}
+.addStorage {
+    height: 35px;
+    margin-left: 30px ;
+}
+.addStorage button{
+    width: 40px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    height: 35px;
+    font-weight: 500;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}

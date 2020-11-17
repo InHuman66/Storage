@@ -1,0 +1,12 @@
+.block_sidebar {
+    min-height: 800px;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 7px 25px 5px rgba(0,0,0,0.4);
+}
+.item_wrapper {
+    width: 100px;
+    height: 35px;
+    background-color: darkblue;
+}

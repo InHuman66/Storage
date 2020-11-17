@@ -1,0 +1,15 @@
+.item_wrapper {
+    padding-right: 35px;
+    background-color: gray;
+    width: 185px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item_wrapper p{
+    margin: 0;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
