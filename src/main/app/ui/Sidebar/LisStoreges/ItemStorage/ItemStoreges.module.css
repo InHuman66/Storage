@@ -1,4 +1,6 @@
 .item_wrapper {
+    border-top: 2px solid white;
+
     padding-right: 35px;
     background-color: gray;
     width: 185px;
@@ -8,6 +10,23 @@
     align-items: center;
 }
 .item_wrapper p{
+    margin: 0;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+.item_wrapper_dark {
+    position: relative;
+    z-index: 2;
+    padding-right: 35px;
+    background-color: dimgray;
+    width: 185px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item_wrapper_dark p{
     margin: 0;
     color: white;
     font-size: 17px;

@@ -1,6 +1,7 @@
 import {applyMiddleware, combineReducers, createStore} from "redux";
 import thunkMiddleware  from "redux-thunk"
 import { reducer as formReducer } from 'redux-form'
+import {appReducer} from "./Reducers/app-reducer";
 
 
 
@@ -10,7 +11,7 @@ export type reduxDispatchType = typeof  dispatch;
 
 let  reducersBatch = combineReducers({
     form: formReducer,
-
+    appReducer: appReducer,
 });
 
 
