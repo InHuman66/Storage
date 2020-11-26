@@ -3,17 +3,20 @@ import classes from "./ItemStoreges.module.css";
 
 type TypeProps ={
     name: string
-    id: number
-    style: boolean
+    id: string
+    style: boolean,
+    onClickFunc: (id:string)=>void
 }
 
 const ItemStorage:React.FC<TypeProps>= (props) => {
     let styleForBack = classes.item_wrapper
+    let onClick = props.onClickFunc
     if (props.style){
         styleForBack= classes.item_wrapper_dark
+        onClick = ()=>{}
     }
     return (
-        <div key={props.id} className={styleForBack}>
+        <div onClick={()=>{onClick(props.id)}} key={props.id} className={styleForBack}>
             <p>{props.name}</p>
         </div>
     );

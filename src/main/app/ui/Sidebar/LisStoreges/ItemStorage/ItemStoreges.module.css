@@ -9,6 +9,11 @@
     justify-content: center;
     align-items: center;
 }
+.item_wrapper:hover {
+    cursor: pointer;
+    background-color: dimgrey;
+    transition: background-color 0.2s;
+}
 .item_wrapper p{
     margin: 0;
     color: white;

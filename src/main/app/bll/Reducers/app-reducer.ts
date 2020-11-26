@@ -9,17 +9,21 @@ export type ItemType ={
     criticalValuePro: number
     price: number
 }
-
+export type  StoragesNameType ={
+        name:string
+        id: string
+}
 const initialState = {
     storageNames:[
-        {name: "Garage"},
-        {name: "Left side"},
-        {name: "Down"}
+        {name: "Garage", id:'1'},
+        {name: "Left side" , id:'2'},
+        {name: "Down" , id:'3'},
+        {name: 'All', id: '4'}
     ],
     storageItems:[
         {storageName: "Garage" , name:"A4 paper", value: 25, container:'шт.', criticalValuePro: 12, price: 12.50},
-        {storageName: "Garage" , name:"Ges book", value: 40, container:'шт.', criticalValuePro: 12, price: 12.50},
-        {storageName: "Garage" , name:"Pen", value: 25, container:'пач.', criticalValuePro: 12, price: 12.50},
+        {storageName: "Ander" , name:"Ges book", value: 40, container:'шт.', criticalValuePro: 12, price: 12.50},
+        {storageName: "Kitchen" , name:"Pen", value: 25, container:'пач.', criticalValuePro: 12, price: 12.50},
     ]
 
 
